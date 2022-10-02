@@ -1,0 +1,85 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+h1{
+    font-family: 'Noto Sans Mono', monospace;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+#description-para{
+    color: aliceblue;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 1.02rem;
+    text-align: center;
+    margin-top: 42px;
+}
+
+#text-field{
+   text-align:start;
+   width: 85vh;
+   height: 65vh;
+   border-width: 1px;
+   border-radius: 8px;
+   font-family: 'Noto Sans Mono', monospace;
+   
+}
+
+
+.text-field-area{
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+
+.count-button-area{
+    display: flex;
+    justify-content:center;
+    margin-top: 9px;
+    
+}
+
+.text-field-area-final{
+    display: flex;
+    justify-content: start;
+    margin-top: 22px;
+   
+}
+
+.count-button-area-final{
+    display: flex;
+    justify-content:start;
+    margin-top: 9px;
+    
+}
+
+#count-button{
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 900;
+    border: 1px solid black;
+    box-shadow: 1px 1px 8px #434343 ;
+    height: 44px;
+    width: 74px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+#result{
+   font-family: 'Noto Sans Mono', monospace;
+   position: relative;
+   top: 25%;
+   float:right;
+   color: aliceblue;
+   display: none;   
+}
+
+.display-text{
+    font-size: 1.2rem;
+}
+
+.res-disp{
+    max-width: fit-content;
+    background-color: rgb(91, 97, 102, 0.6);
+}
